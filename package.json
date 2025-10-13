@@ -1,0 +1,39 @@
+{
+  "name": "dexmarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/init.ts",
+    "create-token": "ts-node src/createToken.ts",
+    "create-usdc": "ts-node src/createUSDC.ts",
+    "mint-usdc": "ts-node src/mintUSDC.ts",
+    "setup-vaults": "ts-node src/setupVaults.ts",
+    "create-market": "ts-node src/createMarket.ts",
+    "activate-market": "ts-node src/activateMarket.ts",
+    "bootstrap-liquidity": "ts-node src/bootstrapLiquidity.ts",
+    "view-market": "ts-node src/viewMarket.ts",
+    "create-market-cli": "ts-node src/createMarketCLI.ts",
+    "check-sdk": "ts-node src/createMarketSimple.ts",
+    "analyze-phoenix": "ts-node src/analyzePhoenixTx.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.3",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "borsh": "^2.0.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.3"
+  }
+}
