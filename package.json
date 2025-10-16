@@ -13,6 +13,7 @@
     "activate-market": "ts-node src/activateMarket.ts",
     "bootstrap-liquidity": "ts-node src/bootstrapLiquidity.ts",
     "view-market": "ts-node src/viewMarket.ts",
+  "close-market": "ts-node src/closeMarket.ts",
     "trade": "ts-node src/trade.ts",
     "create-market-cli": "ts-node src/createMarketCLI.ts",
     "check-sdk": "ts-node src/createMarketSimple.ts",
